@@ -3,8 +3,8 @@ package com.fleet.pages;
 
 
 
-import com.project_name.utilities.BrowserUtils;
-import com.project_name.utilities.Driver;
+import com.fleet.utilities.BrowserUtils;
+import com.fleet.utilities.Driver;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;

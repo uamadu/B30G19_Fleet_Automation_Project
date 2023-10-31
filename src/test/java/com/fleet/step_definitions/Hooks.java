@@ -3,9 +3,9 @@ package com.fleet.step_definitions;
 
 
 
-import com.project_name.utilities.BrowserUtils;
-import com.project_name.utilities.ConfigurationReader;
-import com.project_name.utilities.Driver;
+import com.fleet.utilities.BrowserUtils;
+import com.fleet.utilities.ConfigurationReader;
+import com.fleet.utilities.Driver;
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
 import io.cucumber.java.Scenario;
