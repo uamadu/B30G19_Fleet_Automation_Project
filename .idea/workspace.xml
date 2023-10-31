@@ -4,10 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="81c75232-186f-410f-b51d-41a04a1a4113" name="Changes" comment="">
+    <list default="true" id="81c75232-186f-410f-b51d-41a04a1a4113" name="Changes" comment="fixed some parts. It is up and running now">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/fleet/runners/CukesRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/fleet/runners/CukesRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/fleet/pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/fleet/pages/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/fleet/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/fleet/pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/fleet/runners/FailedTestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/fleet/runners/FailedTestRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/fleet/step_definitions/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/fleet/step_definitions/Hooks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/fleet/step_definitions/LoginStepDefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/fleet/step_definitions/LoginStepDefs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/fleet/utilities/BrowserUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/fleet/utilities/BrowserUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/fleet/utilities/ConfigurationReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/fleet/utilities/ConfigurationReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/fleet/utilities/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/fleet/utilities/Driver.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +41,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="JetRunConfigurationType">
@@ -61,8 +68,16 @@
       <updated>1698625913206</updated>
       <workItem from="1698625914756" duration="9000" />
       <workItem from="1698769195152" duration="905000" />
-      <workItem from="1698770324687" duration="446000" />
+      <workItem from="1698770324687" duration="2535000" />
     </task>
+    <task id="LOCAL-00001" summary="fixed some parts. It is up and running now">
+      <created>1698771013614</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1698771013615</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -81,5 +96,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="fixed some parts. It is up and running now" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed some parts. It is up and running now" />
   </component>
 </project>
