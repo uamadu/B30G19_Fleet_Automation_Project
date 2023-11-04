@@ -128,5 +128,8 @@ public class US06_StepDefs {
         BrowserUtils.waitForVisibility(vehiclesPage.threeDots2, 15);
         BrowserUtils.hover(vehiclesPage.threeDots2);
 
+        //new lines
+        // more lines
+
     }
 }
