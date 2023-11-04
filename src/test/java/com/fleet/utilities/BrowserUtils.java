@@ -485,4 +485,21 @@ public class BrowserUtils {
     }
 
 
+    /**
+     * made the highlight
+     * one has return tip
+     * the other doesn't
+     */
+    public static void highlightUtil(WebElement element) {
+        ((JavascriptExecutor) Driver.getDriver()).executeScript("arguments[0].setAttribute('style', 'background: yellow; border: 2px solid red;');", element);
+        waitFor(1);
+        ((JavascriptExecutor) Driver.getDriver()).executeScript("arguments[0].removeAttribute('style', 'background: yellow; border: 2px solid red;');", element);
+    }
+    public static WebElement highlightUtilReturn(WebElement element) {
+        ((JavascriptExecutor) Driver.getDriver()).executeScript("arguments[0].setAttribute('style', 'background: yellow; border: 2px solid red;');", element);
+        waitFor(1);
+        ((JavascriptExecutor) Driver.getDriver()).executeScript("arguments[0].removeAttribute('style', 'background: yellow; border: 2px solid red;');", element);
+        return element;
+    }
+
 }
