@@ -21,7 +21,8 @@ Feature: Default
 
 	@B30G19-214
 
-		Scenario: Menu Options for store manager
+
+	Scenario: Menu Options for store manager
 		    Given the user is on the login page
 		    When  the user logged in with username as "storemanager85" and password as "UserUser123"
 		    Then user should be able to see following modules
