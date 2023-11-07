@@ -4,7 +4,8 @@ Feature: Default
 
 	@B30G19-213
 
-		Scenario: Menu Options for salesmanager
+
+		Scenario: Menu Options for sales manager
 		    Given the user is on the login page
 			When  the user logged in with username as "salesmanager101" and password as "UserUser123"
 		    Then user should be able to see following modules

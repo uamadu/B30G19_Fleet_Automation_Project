@@ -14,7 +14,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class US01_MainModules_StepDefs {
-    US01_MainModulesPage_UA mainModulesPage = new US01_MainModulesPage_UA();
+    US01_MainModulesPage_UA  mainModulesPage = new US01_MainModulesPage_UA();
     @Then("user should be able to see following modules")
     public void user_should_be_able_to_see_following_modules(List<String> expectedModules) {
 
@@ -22,7 +22,7 @@ public class US01_MainModules_StepDefs {
 
             BrowserUtils.sleep(10);
 
-            WebDriverWait wait = new WebDriverWait(Driver.getDriver(), Duration.ofSeconds(15));
+            WebDriverWait wait = new  WebDriverWait(Driver.getDriver(), Duration.ofSeconds(15));
             wait.until(ExpectedConditions.titleIs("Dashboard"));
 
             List<String> actualModules = new ArrayList<>();
@@ -32,7 +32,7 @@ public class US01_MainModules_StepDefs {
             }
 
             Assert.assertEquals(expectedModules,actualModules);
-            Driver.closeDriver();
+             Driver.closeDriver();
         }
     }
 
