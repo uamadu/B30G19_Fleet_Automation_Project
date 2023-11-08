@@ -1,7 +1,7 @@
 @B30G19-216
 Feature: Default
 
-
+  #US1- As a user, I should be accessing all the main modules of the app.
 	@B30G19-213
 
 

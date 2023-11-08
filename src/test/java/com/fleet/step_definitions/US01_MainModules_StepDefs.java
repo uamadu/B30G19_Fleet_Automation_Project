@@ -32,7 +32,8 @@ public class US01_MainModules_StepDefs {
             }
 
             Assert.assertEquals(expectedModules,actualModules);
-             Driver.closeDriver();
+
+            Driver.closeDriver();
         }
     }
 
