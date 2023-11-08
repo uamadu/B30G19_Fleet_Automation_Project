@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="81c75232-186f-410f-b51d-41a04a1a4113" name="Changes" comment="fixed some parts. It is up and running now 2">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/fleet/runners/CukesRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/fleet/runners/CukesRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/fleet/step_definitions/LoginStepDefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/fleet/step_definitions/LoginStepDefs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/login.feature" afterDir="false" />
+    <list default="true" id="81c75232-186f-410f-b51d-41a04a1a4113" name="Changes" comment="US01 MainModules. please review and merge">
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/fleet/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/fleet/pages/LoginPage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,8 +27,21 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GithubDefaultAccount">
-    <option name="defaultAccountId" value="c838a169-9400-4d8a-a7fb-45acf23bb7eb" />
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="b7e8148a-b028-4797-a3f0-6b24ac0a3d53" />
+        <option name="url" value="https://github.com/uamadu/B30G19_Fleet_Automation_Project.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/test/java/com/fleet/pages/US01_MainModulesPage_UA.java" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -46,16 +56,19 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/dars/IdeaProjects/B30G19_Fleet_Automation_Project/src/test/resources/features",
+    "last_opened_file_path": "C:/Users/umarf/IdeaProjects/B30G19_Fleet_Automation_Project/src/test/resources/features",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\umarf\IdeaProjects\B30G19_Fleet_Automation_Project\src\test\resources\features" />
+      <recent name="C:\Users\umarf\IdeaProjects\B30G19_Fleet_Automation_Project\target\test-classes\features" />
       <recent name="$PROJECT_DIR$/src/test/resources/features" />
     </key>
   </component>
@@ -190,6 +203,7 @@
       <workItem from="1698770324687" duration="2535000" />
       <workItem from="1698773192630" duration="6919000" />
       <workItem from="1698892655065" duration="28423000" />
+      <workItem from="1699206477158" duration="18131000" />
     </task>
     <task id="LOCAL-00001" summary="fixed some parts. It is up and running now">
       <created>1698771013614</created>
@@ -212,7 +226,14 @@
       <option name="project" value="LOCAL" />
       <updated>1698773822011</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="US01 MainModules. please review and merge">
+      <created>1699224452690</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1699224452690</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -226,7 +247,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="US01_Umar_Fleet_Automation" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -235,6 +268,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="fixed some parts. It is up and running now" />
     <MESSAGE value="fixed some parts. It is up and running now 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed some parts. It is up and running now 2" />
+    <MESSAGE value="US01 MainModules. please review and merge" />
+    <option name="LAST_COMMIT_MESSAGE" value="US01 MainModules. please review and merge" />
   </component>
 </project>
