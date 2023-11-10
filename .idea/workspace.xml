@@ -6,21 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="81c75232-186f-410f-b51d-41a04a1a4113" name="Changes" comment="fixed some parts. It is up and running now 2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/fleet/runners/CukesRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/fleet/runners/CukesRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/fleet/step_definitions/LoginStepDefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/fleet/step_definitions/LoginStepDefs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/login.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -37,97 +27,29 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2XScPGBd7sfLLBXt3mDs0sgFbJ4" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="1" id="Add" />
-  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/dars/IdeaProjects/B30G19_Fleet_Automation_Project/src/test/resources/features",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "vue.rearranger.settings.migration": "true"
-  }
-}]]></component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/test/resources/features" />
-    </key>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
   <component name="RunManager" selected="JUnit.CukesRunner">
-    <configuration name="Feature: 1_B30G19-194" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Verify login with different user types" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/1_B30G19-194.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/login.feature" />
       <option name="GLUE" value="com.fleet.step_definitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="B30G19_Fleet_Automation_Project" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: 1_B30G19-194" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Scenario: Hovering over three dots to verify user should see view, edit, delete" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/1_B30G19-194.feature" />
-      <option name="GLUE" value="com.fleet.step_definitions" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="B30G19_Fleet_Automation_Project" />
-      <option name="NAME_FILTER" value="^Hovering over three dots to verify user should see view\, edit\, delete$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Hovering over three dots to verify user should see view\, edit\, delete$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Hovering over three dots to verify user should see view, edit, delete" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Scenario: US06TC1 As a driver user, I want to see edit car info icons from the Vehicle page." type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/1_B30G19-194.feature" />
-      <option name="GLUE" value="com.fleet.step_definitions" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="B30G19_Fleet_Automation_Project" />
-      <option name="NAME_FILTER" value="^US06TC1 As a driver user\, I want to see edit car info icons from the Vehicle page\.$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^US06TC1 As a driver user\, I want to see edit car info icons from the Vehicle page\.$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: US06TC1 As a driver user, I want to see edit car info icons from the Vehicle page." />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Scenario: US06TC2As a store manager, I want to see edit car info icons from the Vehicle page." type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/1_B30G19-194.feature" />
-      <option name="GLUE" value="com.fleet.step_definitions" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="B30G19_Fleet_Automation_Project" />
-      <option name="NAME_FILTER" value="^US06TC2As a store manager\, I want to see edit car info icons from the Vehicle page\.$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^US06TC2As a store manager\, I want to see edit car info icons from the Vehicle page\.$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: US06TC2As a store manager, I want to see edit car info icons from the Vehicle page." />
+      <option name="NAME_FILTER" value="^Verify login with different user types$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Verify login with different user types$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Verify login with different user types" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -170,10 +92,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.CukesRunner" />
-        <item itemvalue="Cucumber Java.Scenario: US06TC2As a store manager, I want to see edit car info icons from the Vehicle page." />
-        <item itemvalue="Cucumber Java.Scenario: Hovering over three dots to verify user should see view, edit, delete" />
-        <item itemvalue="Cucumber Java.Scenario: US06TC1 As a driver user, I want to see edit car info icons from the Vehicle page." />
-        <item itemvalue="Cucumber Java.Feature: 1_B30G19-194" />
+        <item itemvalue="Cucumber Java.Scenario: Verify login with different user types" />
       </list>
     </recent_temporary>
   </component>
@@ -189,7 +108,9 @@
       <workItem from="1698769195152" duration="905000" />
       <workItem from="1698770324687" duration="2535000" />
       <workItem from="1698773192630" duration="6919000" />
-      <workItem from="1698892655065" duration="28423000" />
+      <workItem from="1699463976968" duration="938000" />
+      <workItem from="1699540546400" duration="4138000" />
+      <workItem from="1699613138054" duration="699000" />
     </task>
     <task id="LOCAL-00001" summary="fixed some parts. It is up and running now">
       <created>1698771013614</created>
